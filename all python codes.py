@@ -1,4 +1,22 @@
+
 '''
+# program to reverse a number
+class demo:
+def __init__ (s):
+    s.rrev=0
+def accept(s):
+    s.n=int(input("enter the value"))
+def process(s):
+    while s.n>0:s.r=s.n%10
+        s.rev=s.rev*10+s.r
+        s.n=s.n//10
+    print(s.rev)
+d=demo()
+d.accept()
+d.process()
+ '''
+''''
+# program to check given number is palindrome or not
 class demo:
     def __init__(self):
         self.rev=0
@@ -19,6 +37,7 @@ d.accept()
 d.process()
 '''
 '''
+#program to find sum of squares of a given number
 class Demo:
     def __init__ (self):
         self.sum=0
@@ -52,7 +71,7 @@ d.accept()
 d.process()
 '''
 '''
-#power p(b**p)
+#program to find the power p(b**p) of a number
 class Demo:
     def __init__(s):
         s.res=1
@@ -70,7 +89,7 @@ d.accept()
 d.process()
 '''
 '''
-#amrstrong number
+# program to find amrstrong number
 class demo:
     def __init__ (s):
         s.count=0
@@ -96,6 +115,7 @@ d.accept()
 d.process()
 '''
 '''
+#program to find factorial of a number (using while loop)
 class demo:
     def __init__(s):
         s.count=1
@@ -112,6 +132,7 @@ d.accept()
 d.process()
 '''
 '''
+#program to find factorialof a number(using for loop)
 class demo:
     def __init__(s):
         s.fact=1
@@ -126,6 +147,7 @@ d.accept()
 d.process()
 '''
 '''
+# program to print mathe table(tables)(at given range)
 class demo:
     def __init__(s):
         s.fact=1
@@ -142,6 +164,7 @@ d.accept()
 d.process()
 '''
 '''
+#program to print mathe table(nth table)
 class demo:
     def __init__(s):
         s.count=1
@@ -158,7 +181,7 @@ d.accept()
 d.process()
 '''
 '''
-#prime or not
+# program to check given number is prime or not
 class demo:
     def __init__(s):
         s.c=2
@@ -197,7 +220,7 @@ d.accept()
 d.process()                
 '''
 '''
-# another form to find the GCD
+#program for another form to find the GCD
 class demo:
     def __init__(s):
         pass
@@ -215,7 +238,7 @@ d.accept()
 d.process()
 '''
 '''
-#fibanocci ser
+# program to find fibanocci ser
 class demo:
     def __init__(s):
         s.a=0
@@ -234,7 +257,7 @@ d.accept()
 d.process()
 '''
 '''
-# n fibanocci series
+# program to find n fibanocci series
 class demo:
     def __init__ (s):
         s.a=0
@@ -292,7 +315,7 @@ d.accept()
 d.process()
 '''
 '''
-#factorial
+# programe to find factorial of a given number
 class demo:
     def __init__(s):
         s.fact=1
@@ -314,7 +337,7 @@ d.accept()
 d.process()
 '''
 '''
-#sum of two numbers
+#programe to find sum of two numbers(without using expression)
 class demo:
     def __init__ (s):
         pass
@@ -330,7 +353,7 @@ d=demo()
 d.accept()
 d.process()
 ''''''
-# sub
+#programe to find sub of two numbers(without using expression)
 class demo:
     def __init__ (s):
         pass
@@ -346,7 +369,7 @@ d=demo()
 d.accept()
 d.process()
 ''''''
-#mul
+#programe to find mul of two numbers(without using expression)
 class demo:
     def __init__ (s):
         s.c=1
@@ -365,6 +388,7 @@ d.accept()
 d.process()
 '''
 '''
+#programe to find mul of two numbers(without using expression)
 class demo:
     def __init__ (s):
         s.pro=0
@@ -381,6 +405,7 @@ d.accept()
 d.process()
 '''
 '''
+# program using nested while loop
 class demo:
     def __init__ (s):
         s.i=1
@@ -400,7 +425,7 @@ d.process()
 ''''
 
 '''
-# mathe table
+# program to print mathe table
 class demo:
     def __init__(s):
         s.p=1
@@ -420,7 +445,7 @@ d.accept()
 d.process()
 '''
 '''
-#perfect number
+# program to print perfect number
 class demo:
     def __init__(s):
         pass
